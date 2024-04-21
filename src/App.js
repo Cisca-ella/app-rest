@@ -1,5 +1,5 @@
 
-import Weather from './Weather-app';
+import Weatherapp from './Weatherapp';
 
 import './App.css';
 
@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         
         
-       <Weather-app />
+       <Weatherapp />
           
       </header>
     </div>

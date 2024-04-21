@@ -1,7 +1,7 @@
 import React from "react";
-import "./weather.css";
+import  "./weather.css";
 
-export default function Weather() {
+export default function Weatherapp() {
     return (
       <div className="weatherApp">
         <div class="weather-app">
@@ -21,7 +21,7 @@ export default function Weather() {
             <div class="current-weather">
               <div>
                 <h1 class="current-city" id="current-city">
-                  Paris
+                  Lagos
                 </h1>
                 <p class="current-details">
                   <span id="current-date"></span>, moderate rain <br />
@@ -38,17 +38,13 @@ export default function Weather() {
           <footer>
             <p>
               This project was coded by
-              <a href="" target="_blank">
+              <a href="https://github.com/Cisca-ella/app-rest" rel="noreferrer" target="_blank">
                 Francisca
               </a>{" "}
-              and is
-              <a href="#" target="_blank">
+              and is hosted
+              <a href="https://vercel.com/cisca-ellas-projects" rel="noreferrer" target="_blank">
                 {" "}
                 on Vercel
-              </a>{" "}
-              and
-              <a href="#" target="_blank">
-                hosted on Netlify
               </a>
             </p>
           </footer>
