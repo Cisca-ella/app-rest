@@ -1,5 +1,5 @@
 
-import Weather from './Weather';
+import Weather from './Weather-app';
 
 import './App.css';
 
@@ -10,10 +10,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         
-        <h3>
-          Hello world.
-        </h3>
-       <Weather city = "paris" />
+        
+       <Weather-app />
           
       </header>
     </div>
